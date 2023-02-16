@@ -1,0 +1,9 @@
+*,body{
+   padding: 0px;
+   margin: 0;
+   font-family: 'Inconsolata', monospace;
+}
+.App{
+   padding: 50px;
+   background-color: #7A7067;
+}

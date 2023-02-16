@@ -1,0 +1,24 @@
+.nav{    
+    background-color:#BFB3A8 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+}
+.title{ 
+    color: #f0f8ff;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.li{
+    list-style-type: none;
+}
+.Link{ 
+    text-decoration: none;
+    color: #f0f8ff;
+}

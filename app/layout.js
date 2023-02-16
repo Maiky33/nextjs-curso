@@ -1,14 +1,16 @@
-import './globals.css'
+import '../styles/globals.css'
+import {Nav} from '../components/Nav'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+    <html>
+      <head>  
+        <title>My Frist app with Next 13</title>
+      </head>
+      <body className='App'>
+        <Nav/>
+        {children}
+      </body>
     </html>
   )
 }

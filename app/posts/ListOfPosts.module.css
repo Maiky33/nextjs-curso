@@ -1,0 +1,35 @@
+.ContainerTargetsPost{  
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+}
+
+
+
+.TargetPost{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    
+    height: 150px;
+    padding: 50px;
+    background-color: #7A7067;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Title{ 
+    color: #000000;
+}
+
+.body{  
+    color: #BCC5CE;
+}
+
+.LinkPost{  
+    text-decoration: none;
+}
